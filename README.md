@@ -34,7 +34,7 @@ ollama pull llama3.2
 
 Запустите подготовку тест-кейсов: 
 
-```python
+```bash
 python ai_tcr.py \
   --mode testing \
   --input requirements.txt \
@@ -54,7 +54,7 @@ python ai_tcr.py \
 
 Анализ требований: 
 
-```python
+```bash
 python ai_tcr.py \
   --mode requirements \
   --input requirements.txt \
@@ -63,7 +63,7 @@ python ai_tcr.py \
 
 Помощь в разработке:
 
-```python
+```bash
 python ai_tcr.py \
   --mode development \
   --input task.txt \
@@ -72,7 +72,7 @@ python ai_tcr.py \
 
 Подготовка документации:
 
-```python
+```bash
 python ai_tcr.py \
   --mode documentation \
   --input program_description.txt \
@@ -81,7 +81,7 @@ python ai_tcr.py \
 
 Подготовка ответа поддержки:
 
-```python
+```bash
 python ai_tcr.py \
   --mode support \
   --input support_materials.txt \
